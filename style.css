@@ -1,0 +1,148 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hidden
+{
+    display: none;
+}
+body
+{
+    display: felx;
+    justify-content: center;
+    align-items: center;
+  background-image: linear-gradient(to right, rgb(231, 158, 227) , rgb(122, 199, 227));
+}
+.sign
+{
+    margin: 1rem 0rem 0rem 0rem;
+    width: 100%;
+    height: 10vh;
+    margin-right: 0;
+    padding: 1rem 2rem 0rem 0rem;
+    display: flex;
+    justify-content: end;
+}
+.signBtn
+{
+    width: 8.5rem;
+    height: 4.3rem;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(231, 158, 227) , rgb(122, 199, 227));
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  
+    
+}
+.form--text
+{
+    height: 60vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px black solid;
+    background-color: white;
+    border-radius: 10px;
+  
+}
+.delete--btn
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.login--text
+{
+    text-align: center;
+}
+.input--div
+{
+    margin: 0.5rem 0rem 0.5rem 0rem;
+}
+input
+{
+    display: block;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+   padding-left: 4px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: bold;
+  
+}
+.button
+{
+    margin-top: 2rem;
+    cursor: pointer;
+    
+
+}
+.btn
+{
+ 
+    cursor: pointer;
+    text-align: center;
+ height: 40px;
+ background-image:linear-gradient(to right, rgb(231, 158, 227) , rgb(122, 199, 227)) ;
+}
+.input--btn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.sign--up--text
+{
+    text-align: center;
+}
+.delete
+{
+ 
+  background-color: rgba(240, 248, 255, 0);
+  border: 0px;
+}
+
+
+@media (max-width:800px)
+{
+   input 
+   {
+    display: block;
+    width: 60vw;
+    height: 5vh;
+    border-radius: 5px;
+   padding-left: 2px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: bold;  
+   }
+   .form--text
+{
+    height: 60vh;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px black solid;
+    background-color: white;
+    border-radius: 4px;
+}
+.btn
+{
+ 
+    cursor: pointer;
+    text-align: center;
+ width: 30vw;
+ background-image:linear-gradient(to right, rgb(231, 158, 227) , rgb(122, 199, 227)) ;
+
+}
+}
