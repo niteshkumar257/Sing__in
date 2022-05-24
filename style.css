@@ -15,6 +15,11 @@ body
     align-items: center;
   background-image: linear-gradient(to right, rgb(231, 158, 227) , rgb(122, 199, 227));
 }
+.center
+{
+    text-align: center;
+    font-size: 1rem;
+}
 .sign
 {
     margin: 1rem 0rem 0rem 0rem;
@@ -91,7 +96,9 @@ input
  
     cursor: pointer;
     text-align: center;
+    width:10vw ;
  height: 40px;
+ border-radius:10px ;
  background-image:linear-gradient(to right, rgb(231, 158, 227) , rgb(122, 199, 227)) ;
 }
 .input--btn
